@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    list-style: none;
+} 
+
+@font-face {
+    font-family: kanit-bold;
+    src: url("asset/fonts/kanit-bold.woff2");
+}
+
+
+body,html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    background-color: black;
+    font-family: "kanit-bold";
+}
+
+li,.logo,.hero{
+    color: white;
+}
+
+svg{
+    fill: white;
+    cursor: pointer;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 4px;
+    font-size: 20px;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul{
+    display: flex;
+    gap: 10px;
+    width: 40%;
+    text-transform: uppercase;
+    margin-top: 13px;
+
+}
+
+.menu{
+    margin-left: 13px;
+}
+
+.menu li{
+    cursor: pointer;
+}
+
+.icon{
+    justify-content: flex-end;
+    margin-right: 13px;
+}
+
+.hero{
+    text-align: center;
+    line-height: 0.9;
+    font-size: 4vw;
+    padding: 20px;
+    text-transform: uppercase;
+}
+
+.hero .h1-2{
+    color: black;
+    text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff
+    , 2px 2px 2px #fff, 2px 2px 2px #fff, 2px 2px 2px #fff, 2px 2px 2px #fff, 2px 2px 2px #fff, 2px 2px 2px #fff, 2px 2px 2px #fff, 2px 2px 2px #fff;
+}
+
+
+.images {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+  
+
+
+
